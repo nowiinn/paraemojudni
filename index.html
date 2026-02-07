@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Para Emoha ♡</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+
+        <!-- Long message (hidden by default) -->
+        <p id="long-message" class="long-message" style="display: none;">
+          Hi baii HAHAHAHAH I took up all my courage to write this to you. I’ve 
+          been thinking about you a lot lately, and I just couldn’t keep it to myself anymore. 
+          It’s okay to say no, I just wanted to let you know how much I appreciate you. 
+          Even if we’re not together anymore, you’ve always been someone special to me, 
+          and I hope this little message kay makapahumok nimo gamay hahahhah and 
+          yeahh no pressure at all, just wanted to put my thoughts in here;D
+        </p>
+
+        <!-- Valentine question (hidden initially) -->
+        <h1 id="letter-title" style="display: none;">Will you be my Valentine Bai?</h1>
+
+        <img src="cat_heart.gif" class="cat" id="letter-cat" style="display: none;" />
+
+        <div class="buttons" id="letter-buttons" style="display: none;">
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+
+        <!-- NO button hover message -->
+        <p id="no-message" class="no-message" style="display: none;">
+          sure ba? ;(
+        </p>
+
+        <!-- Final text after YES -->
+        <p id="final-text" class="final-text" style="display: none">
+          <strong>Valentine Date:</strong> ig sabado ha hahahah, i'll let you know the details :p
+        </p>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
